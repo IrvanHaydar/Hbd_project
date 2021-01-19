@@ -1,0 +1,43 @@
+print('haloo ini siapa ya?')
+nama=input('masukin nama:')
+nama_asli='irvan'
+
+if nama==nama_asli:
+    print('irvan')
+    
+else :
+    print('Eh jangan bohong')
+        
+    
+    
+    
+print('kenalin aku albaid, program yang dibuat sama  irvan')
+print("  ")
+print('  ')
+        
+umur=int(input('umur kamu berapa :'))
+umur_asli=14
+
+if umur==umur_asli:
+    print('nice')
+    
+else: 
+    print('alah bohong kamu kan 14')
+    
+    
+print('  ')
+print('  ')
+
+ultah=input("hari ini kamu ultah ya? (yes/no)")
+
+while ultah!='yes':
+    ultah=input('bohong,aku tanya lagi nih kamu ultah ga  (yes/no)')
+    
+print('  ')
+print('  ')
+banyak=int(input('mau diucapin berapa kali?'))
+while banyak<=0:
+    banyak=int(input('serius ni brp kali nih? :'))
+    
+for i in range (banyak):
+    print('HAPPY BIRTHDAY ')
